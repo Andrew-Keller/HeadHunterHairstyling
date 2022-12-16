@@ -1,0 +1,134 @@
+body{
+    font-family: "Marion";
+    background-size: cover;
+    background-color:white;
+}
+
+#applinks{ float: right;
+
+  padding-top: 2rem;
+  padding-right: 15px;
+  width:14%;
+}
+
+#inDiv{color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 17px;
+    border-radius: 8px;
+    background: tomato;}
+#idFloat{ float: center;
+}
+#goFloat{
+    width: 350px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(28,177,174);
+    border-radius: 8px;
+}
+#top{
+  align-content: center;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+#float{text-align: center;
+color: rgb(28,177,174);}
+
+
+main{
+  background-color:#fff;
+}
+
+#tbl14{
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+}
+
+.pad{
+  padding: 5px;
+  padding-right: 15px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.bottom{
+color: #fff;
+padding-bottom: 10%;
+padding-left: 5%;
+padding-right: 5%;
+margin-left: 10px;
+margin-right: 10px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.bottom .box{
+position: relative;
+width: 350px;
+height: 350px;
+margin: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+box-sizing: border-box;
+display: inline-block;
+}
+
+.bottom .box .col2{position: relative;}
+
+.bottom .box .col2 img{max-width: 100%;
+  transition: 2s  transform;
+}
+
+.bottom .box:hover .col2 img{transform: scale(1);}
+
+.bottom .box .details{position: absolute;
+top: 10px;
+left: 10px;
+right:10px;
+bottom: 10px;
+background: rgba(0, 0, 0, 0.822);
+transform: scaleY(0);
+transition: transfrom 0.5s;}
+
+.bottom .box:hover .details{
+  transform: scaleY(1);
+}
+
+.bottom .box .details .content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.bottom .box .details .content h3{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: rgb(28,177,174);
+}
+
+.bottom .box .details .content p{
+  margin: 0;
+  padding: 0;
+  font-size: px;
+  color: #fff;
+}
+
+H1{color: rgb(28,177,174);
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;}
+
+  

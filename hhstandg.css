@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: "Marion";
+    font-weight: 400;
+}
+.info{
+    float: right;  width: 65%;
+}
+.info h1{
+    color: rgb(28,177,174);
+    text-shadow: 2px 2px 4px gray;
+}
+.info p{
+    margin-right: 50px;
+}
+h1{
+    padding: 0px;
+    margin-bottom: 15px;
+}
+h3{
+    color: black; padding-left: 15px
+}
+.title{
+    color: rgb(28,177,174);
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.title2{
+    color: rgb(28,177,174);
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    text-align: center; padding: 0px; display: inline-block;
+}
+hr{
+    width: 100%; text-align: center; clear: right;
+}
+.stylists{
+    height: 25%; width: 25%; margin: 10px; margin-left: 75px; border-style: ridge; border-width: 5px; border-color: #1cb1ae;
+}
+.calendardiv{
+    text-align:center;
+    width:100
+}
+.calendar{
+    border: 0;
+    width: 700px;
+    height: 500px;
+}
+.galleryBG{
+    background: url(place.jpg); background-size: cover;
+}
+.gallery{
+    display: inline-block; padding-left: 40px;
+}
+.gImage{
+    height: 225px; width: 350px; margin: 20px; margin-bottom: 90px; box-shadow: 7px 7px 10px black; border-style: ridge; border-width: 7px; border-color: white;
+}
+.gImageMid{
+    height: 225px; width: 350px; margin: 20px; margin-bottom: 90px; box-shadow: 7px 7px 10px black; border-style: ridge; border-width: 7px; border-color: white; margin-left: 75px; margin-right: 75px;
+}
+.bottom{
+    background-size: cover;
+    height: 500px;
+    border-top: ridge;
+    border-bottom: ridge;
+    border-width: 50px;
+    border-color: #1cb1ae;
+    text-align: center;
+}
+.video{
+    height: 300px; width: 300px;
+}

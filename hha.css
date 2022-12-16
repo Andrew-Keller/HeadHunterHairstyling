@@ -1,0 +1,54 @@
+.content {
+  height: 40vh;
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.about-section{
+    background: url(hha1.jpeg) no-repeat left;
+    background-size: 70%;
+    position: relative;
+    overflow: hidden;
+}
+.aboutus{
+    color: var(--mycolor);
+    font-size: 38px;
+    font-weight: bold;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fff;
+    padding: 120px;
+}
+.text1{
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

@@ -1,0 +1,124 @@
+a:nth-child(1){
+  width:80px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+  width: 110px;
+  left: 275px;
+}
+a:nth-child(2){
+  width:80px;;
+}
+nav .start-home, a:nth-child(2):hover~.animation{
+  width: 110px;
+  left: 424px;
+}
+a:nth-child(3){
+  width:80px;
+}
+nav .start-home, a:nth-child(3):hover~.animation{
+  width: 120px;
+  left: 570px;
+}
+a:nth-child(4){
+  width:80px;
+}
+nav .start-home, a:nth-child(4):hover~.animation{
+  width: 110px;
+  left: 725px;
+}
+a:nth-child(5){
+  width:80px;
+}
+nav .start-home, a:nth-child(5):hover~.animation{
+  width: 110px;
+  left: 875px;
+}
+
+a:nth-child(6){
+  width:80px;
+}
+nav .start-home, a:nth-child(6):hover~.animation{
+  width: 120px;
+  left: 1020px;
+}
+.contMain{ box-shadow: 0 2px 3px 0 rgba(8, 7, 1, 1);width:95%;background-color:#031926;}
+main{
+    margin-left: auto;
+  margin-right: auto;
+    clear: both;
+    padding-top: 35%;
+    background-image: url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.news8000.com/content/uploads/2020/08/Getty-hair.jpg");
+    height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+#float{
+    text-align: center;
+    color: rgb(28,177,174);
+}
+.bottom{
+color: #fff;
+padding-bottom: 10%;
+
+margin-left: 10px;
+margin-right: 10px;
+display: flex;
+flex-direction: row;
+}
+
+.bottom .box{position: relative;
+width: 350px;
+height: 350px;
+background: black;
+margin: 30px;
+box-sizing: border-box;
+display: inline-block;
+}
+
+.bottom .box .col2{position: relative;}
+
+.bottom .box .col2 img{max-width: 100%;
+  transition: 2s  transform;
+}
+
+.bottom .box:hover .col2 img{transform: scale(1.2);}
+
+.bottom .box .details{position: absolute;
+top: 10px;
+left: 10px;
+right:10px;
+bottom: 10px;
+background: rgba(0, 0, 0, 0.822);
+transform: scaleY(0);
+transition: transfrom 0.5s;}
+
+.bottom .box:hover .details{
+  transform: scaleY(1);
+}
+
+.bottom .box .details .content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.bottom .box .details .content h3{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: rgb(28,177,174);
+}
+
+.bottom .box .details .content p{
+  margin: 0;
+  padding: 0;
+  font-size: px;
+  color: #fff;
+}
